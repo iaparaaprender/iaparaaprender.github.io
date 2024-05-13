@@ -1,0 +1,382 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'),
+        url('fonts/Montserrat/Montserrat-Regular.woff') format('woff')
+}
+
+.row {flex-wrap: wrap;}
+.row .col-2 {width: 100%;}
+
+.modal_container .modal-content.modal-investigador {
+	background-size: auto;
+}
+
+.modal_container .modal-content {
+	width: 100%;
+	height: 90%;
+}
+
+header {
+	position: relative;
+	min-height: 100px;
+}
+
+header .btn-menu {
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+    align-items: center;
+    top: 30px;
+	bottom: 20px;
+	right: 0;
+	width: 100%;
+	padding-right: 10px;
+	height: 50px;
+	cursor: pointer;
+	
+}
+
+header .btn-menu:after {
+	width: 50px;
+    z-index: 2;
+    text-align: center;
+
+    content: "<";
+    color: #000;
+    font-size: 50px;
+}
+
+header .scroll_top .btn-menu {
+	display: flex;
+	background: #fff url(../img/logo_1.png) no-repeat 10%;
+	background-size: contain;
+	position: fixed;
+	top: 0;
+}
+
+header.visible {
+	position: absolute;
+	left: 100%;
+    padding: 0;
+    background-color: #fff;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    transition: left .5s;
+}
+
+header .btn-close {
+	display: none;
+}
+
+header.visible .btn-close {
+	display: block;
+	font-weight: bold;
+	font-size: 24px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+header img {
+	padding: 0;
+}
+
+header .menu-ppal {
+	display: none;
+}
+
+header .redes-sociales {
+	width: 100%;
+	justify-content: center;
+	position: absolute;
+}
+
+header.visible img,
+header.visible .menu-ppal {
+	display: block;
+}
+
+header.scroll_top .redes-sociales {
+	display: none;
+}
+header.visible .redes-sociales {
+	display: flex;
+	position: relative;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+    width: 90%;
+}
+
+header.visible .redes-sociales .buscador {
+	margin-top: 20px;
+	width: 80%;
+}
+
+header.visible nav.menu-ppal ul {
+	flex-direction: column;
+	text-align: left;
+}
+
+header.visible nav.menu-ppal ul li a {
+	font-size: 2em;
+	line-height: 1.7em;
+}
+
+header .header-cont .nav-bar {
+	padding: 0 30px;
+}
+
+#body .content {
+	padding: 0 !important;
+	width: 100%;
+	overflow: scroll;
+}
+
+.not-mobile {
+	display: none;
+}
+
+#que-es .que-es {
+	background: url(../img/que-es-rutatic.png) no-repeat top;
+	background-size: 500% 100%;
+    height: auto;
+    padding-bottom: 0;
+}
+
+#que-es .que-es .imagen,
+#que-es .que-es .text {
+	padding: 0;
+}
+
+#que-es .que-es .imagen,
+#que-es .que-es .imagen img {
+	width: 100%;
+}
+
+#eventos .row .col-2.text,
+#eventos .row,
+#conocimiento .col-2.video-cont,
+#conocimiento .col-2.text,
+.modal_container .row .text {
+	width: 100%;
+}
+
+#conocimiento {
+    max-width: 100%;
+    overflow: scroll
+}
+
+#equipo p {
+	padding: 0 10px;
+}
+
+#equipo .modal-content .fondo {
+	font-size: 40px;
+}
+
+.modal_container .modal-content,
+#equipo .modal-content.colab {
+	width: 92%;
+}
+
+.modal_container .row .text h2 {
+	text-align: left;
+}
+
+#equipo .modal-content .colaboradores {
+	padding-left: 20px;
+	justify-content: flex-start;
+}
+
+#conocimiento .col-2 {
+	padding: 10px 20px;
+}
+
+#conocimiento .col-2.video-cont {
+	padding: 10px 0;	
+}
+
+.modal_container .correo,
+.modal_container .cvlac {
+	position: unset;
+	margin: 20px;
+}
+
+#eventos {
+	margin-top: -100px;
+}
+
+#menu-lateral {
+	flex-direction: row;
+	padding-top: 0;
+	width: 92%;
+	height: auto;
+}
+
+#menu-lateral .btn, #menu-lateral .btn2 {
+	transform: rotate(90deg);
+	width: 10px;
+}
+
+#eventos .row {
+	padding: 30px 0;
+}
+
+#eventos .row .col-2.text {
+	padding: 10px 20px 50px;
+	margin-bottom: 20px;
+}
+
+#productos {
+	margin-top: -50px;
+}
+
+#experiencias {
+	background-size: 100% 100%;
+	padding-top: 25px;
+}
+
+#experiencias #menu-lateral {
+	padding-top: 20px;
+}
+
+#experiencias #menu-lateral {
+	height: auto;
+}
+
+#experiencias .row {
+    padding: 20% 0 20px;
+}
+
+#experiencias .col-2 {
+	padding: 0;
+}
+
+footer {
+	flex-direction: column;
+	padding: 10px;
+}
+
+footer ul {
+    margin: 0;
+    padding-left: revert;
+}
+
+#que-es .col-2.video-cont {
+	min-height: 100px;
+}
+
+.imagen img {
+	width: 100%;
+}
+
+#recursos .sonidos, #recursos .videos, 
+#recursos .ilustraciones, #recursos .fotografias {
+	padding: 0;
+}
+
+#recursos .fotografias {
+	padding-top: 50px;
+}
+
+#recursos .buscador {
+	top: 0;
+}
+
+#recursos .filter ul {
+	padding-left: 0;
+}
+
+#scorm .contenidos .cont,
+#interactivos .contenidos .cont {
+	flex-wrap: wrap;
+	border: 1px solid #f3f3f3;
+	padding: 10px 0;
+}
+
+#herramientas .row {
+	padding: 0 30px;
+}
+
+#interactivos .contenidos .cont .name {
+	width: 100%;
+	text-align: center;
+}
+
+#scorm .contenidos .cont .name {
+	border-right: none;
+	padding-right: 0;
+	width: 75%;
+}
+
+#scorm .contenidos .cont .prev,
+#interactivos .contenidos .cont .prev {
+	border-left: none;
+}
+
+#scorm .contenidos .cont, 
+#interactivos .contenidos .cont {
+	justify-content: center;
+}
+
+#scorm .contenidos .description {
+	flex-direction: column;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+#scorm .contenidos .description p {
+	margin-right: 0;
+	width: 90%;
+}
+
+#perceptio .row {
+	padding: 30px;
+}
+
+/********************************************************************************/
+/* Modal
+/********************************************************************************/
+.modal_container {
+	padding-top: 1vh;
+}
+
+.boxes .modal_container {
+	padding-top: 55px;	
+}
+
+#equipo .modal-content.colab {
+	height: 83vh;
+}
+
+#equipo .modal-content.colab .close {
+	top: 1vh;
+	right: 1%;
+    left: 1%;
+}
+
+#cursos .modal-content .close {
+	right: 0;
+    left: 0;
+    top: 0;
+    width: 98%;
+}
+
+#cursos .modal-content {
+	width: auto;
+    height: auto;
+    max-height: none;
+}
+
+#cursos p.mas {
+	margin: 0 0 0 30px;
+}

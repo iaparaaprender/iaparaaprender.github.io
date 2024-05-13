@@ -1,0 +1,60 @@
+#body {
+    background: url(../img/fondo-formas1.png) no-repeat right top;
+    background-color: #f7f7f7;
+    color: #676767;
+    text-align: justify;
+
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2% 5%;
+    align-items: flex-start;
+}
+.col-2.text {
+    width: 50%;
+    min-width: 50%;
+    padding-right: 3%;
+    padding-left: 0;
+}
+
+.col-2.video-cont {
+    background: url(../img/ventana_video.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    padding-top: 36%;
+}
+
+.col-2.video-cont video {
+    position: absolute;
+    top: 8%;
+    left: 2.5%;
+    width: 95%;
+}
+
+.footer {
+    display: block;
+    color: #676767;
+    background-color: #9bd6de;
+    text-align: center;
+    padding: 20px 30px 40px;
+}
+
+.footer p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.footer .descarga {
+    background-color: #ffac31;
+    padding: 10px 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}

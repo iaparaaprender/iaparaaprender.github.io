@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Herramientas de Software</title>
+    <link rel="icon" href="../../img/icono.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="../../css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../css/mobile.css" media="only screen and (max-width: 700px)">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="../../js/lib.js" type="text/javascript"></script>
+
+    <style>
+        .row {
+            padding: 0 100px;
+        }
+        .col-2.img {
+            text-align: center;
+            background: url(img/fondo-formas1.png) no-repeat center;
+        }
+    </style>
+
+</head>
+<body data-autoload="false" data-display-window="modal" data-window-width="100" data-window-height="100">
+    <div id="body">
+        <header>
+            <div class="header-cont" data-offset="true">
+                <img src="../../img/logo-ia-para-aprender.svg" alt="IA para aprender" />
+
+                <div class="btn-menu">
+                    <ion-icon size="large" name="menu-outline"></ion-icon>
+                </div>
+                <div class="btn-close">X</div>
+                <div class="nav-bar" >
+                    <nav class="menu-ppal" >
+                        <ul>
+                            <li><a href="../../index.html">Inicio</a></li>
+                            <li><a href="../../index.html#equipo">Nuestro equipo</a></li>
+                            <li><a href="../../index.html#conocimiento">Generación de conocimiento</a></li>
+                            <li><a href="../../index.html#eventos">Eventos</a></li>
+                            <li><a href="../../index.html#productos">Productos</a></li>
+                            <li><a href="../../index.html#experiencias">Experiencias</a></li>
+                        </ul>
+                        <div class="redes-sociales">
+                            <a class="icono galeria-oscuro" href="#" target="_blank"></a>
+                            <a class="icono icono-facebook-oscuro" href="https://www.facebook.com/" target="_blank"></a>
+                            <a class="icono icono-twitter-oscuro" href="https://twitter.com/" target="_blank"></a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div id="herramientas">
+            <div class="row">
+                <div class="col-2 text">
+                    <h2>Herramientas de software</h2>
+                    <p>La plataforma utilizada para la investigación fue el LMS Moodle. Una de las principales razones para seleccionar dicho LMS fue su licencia libre GNU/GPL que permite adaptar el software y tener acceso libre a su código fuente.</p>
+                    <p>Algunas de las funcionalidades necesarias para el proyecto no se encontraban disponibles o requerían modificaciones, por lo que se prentede entregar los desarrollos que fueron necesarios con el fin de que puedan ser aprovechados por otras personas. Todos los desarrollos se entregan también con licencia GNU/GPL.</p>
+                    <p>Las herramientas desarrolladas fueron probadas en la versión 3.6+ de Moodle que fue la elegida para el proyecto, cualquier versión diferente requiere que dichas funcionalidades sean probadas adecuadamente y pueden requerir adaptaciones. Las herramientas son:</p>
+                    <ul class="data_list">
+                        <li>
+                            <strong>Tema gráfico: </strong> se construyó el componente de tipo tema gráfico "RutaTIC". Se encuntra disponible en: <a href="https://github.com/ruta-tic/moodle-theme_rutatic" target="_blank">https://github.com/ruta-tic/moodle-theme_rutatic</a>. Este tema cuenta con algunas funcionalidades especiales tales como una página de inicio con múltiples controles para publicar información, componentes dinámicos para interactuar con los contenidos (ventanas emergentes, acordeón, entre otros), adaptabilidad a diferentes dispositivos, entre muchas otras.
+                        </li>
+                        <li>
+                            <strong>Mejorando SCORM: </strong> este componente, de tipo "local", se construyó como una herramienta propuesta para mejorar las funcionalidades de base de los paquetes SCORM. Permite el control de actividades interactivas multiusuario implementando control en vivo mediante la tecnología de Web sockets. El proyecto se encuentra disponible en <a href="https://github.com/ruta-tic/moodle-local_tepuy" target="_blank">https://github.com/ruta-tic/moodle-local_tepuy</a>.
+                        </li>
+                        <li>
+                            <strong>Plantilla de contenidos: </strong> para facilitar la implementación de contenidos en SCORM, se personalizó la herramienta <a href="https://github.com/davidherney/tepuy" target="_blank">"Tepuy"</a> adaptándola a las necesidades del proyecto, tanto gráficas como funcionales. Esta plantilla brinda la posibilidad de construir contenidos para ser empaquetados en SCORM o para ser usados como páginas HTML, permite contenidos interactivos y actividades como cuestionarios, arrastrar y soltar, crucigramas, ordenar, entre otras; todo esto sin necesidad de programación, simplemente mediante el uso de etiquetas HTML. En el proyecto se personalizaron dos plantillas, una para los cursos de la ruta que se encuentra disponible en <a href="https://github.com/ruta-tic/contenidos/tree/master/plantilla" target="_blank">https://github.com/ruta-tic/contenidos/tree/master/plantilla</a> y otra para el curso de ABAP que se encuentra disponible en <a href="https://github.com/ruta-tic/contenidos/tree/master/plantilla_perceptio" target="_blank">https://github.com/ruta-tic/contenidos/tree/master/plantilla_perceptio</a>. Una adaptación de la plantilla, desarrollada para realizar autoevaluaciones, se encuenta disponible en <a href="https://github.com/ruta-tic/contenidos/tree/master/plantilla_perceptio_rubrica" target="_blank">https://github.com/ruta-tic/contenidos/tree/master/plantilla_perceptio_rubrica</a>.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">
+                    <div class="slider">
+                        <img class="slide-img" src="herramientas/home1.jpg">
+                        <img class="slide-img" src="herramientas/home2.jpg">
+                        <img class="slide-img" src="herramientas/login.jpg">
+                        <img class="slide-img" src="herramientas/my.jpg">
+                        <img class="slide-img" src="herramientas/curso1.jpg">
+                        <img class="slide-img" src="herramientas/curso2.jpg">
+                        <img class="slide-img" src="herramientas/plantilla1.jpg">
+                        <img class="slide-img" src="herramientas/plantilla2.jpg">
+                        <img class="slide-img" src="herramientas/plantilla3.jpg">
+                        <img class="slide-img" src="herramientas/plantilla4.jpg">
+                        <img class="slide-img" src="herramientas/plantilla5.jpg">
+                        <img class="slide-img" src="herramientas/plantilla6.jpg">
+
+                        <button class="left" onclick="current(-1)"><div class="icono flecha-atras"></button>
+                        <button class="right" onclick="current(1)"><div class="icono flecha-adelante"></div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <img src="../../img/logo-ia-para-aprender2.png" alt="IA para aprender" />
+        </div>
+        <div>
+            <ul>
+                <li><strong><a href="../../index.html#que-es">Que es IA para aprender</a></strong></li>
+                <li><strong><a href="../../index.html#equipo">Nuestro equipo</a></strong></li>
+                <li><strong><a href="../../index.html#conocimiento">Generación de conocimiento</a></strong></li>
+                <li><strong><a href="../../index.html#eventos">Participación</a></strong></li>
+                <li><strong><a href="../../index.html#productos">Productos</a></strong></li>
+                <li><strong><a href="../../index.html#experiencias">Experiencias</a></strong></li>
+                <li class="modal" data-modal-id="#creditos"><strong>Créditos</strong></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <h3>Contacto</h3>
+            <p><a href="mailto:luis.fletscher@udea.edu.co">luis.fletscher@udea.edu.co</a></p>
+            <div class="redes-sociales">
+                <a class="icono galeria-blanco" href="#" target="_blank"></a>
+                <a class="icono icono-facebook-claro" href="https://www.facebook.com/" target="_blank"></a>
+                <a class="icono icono-twitter-claro" href="https://twitter.com/" target="_blank"></a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <div id="creditos" class="modal_container window">
+        <div class="modal-content">
+            <a href="#" class="close">×</a>
+            <div id="credits_subpage">
+                <h2>Créditos</h2>
+                <p>Los créditos a continuación hacen referencia al presente sitio. La información de los créditos y licencias de los recursos vinculados se encuentran en cada uno de ellos.</p>
+                <div>
+                    <h3>Producción de contenidos</h3>
+                    <cite>Ángela María Valderrama Muñoz<br />
+                    David Herney Bernal García<br />
+                    Diana Patricia Ospina Pineda<br />
+                    Herlaynne Segura Jiménez<br />
+                    Leidy Marcela Palacio Ortiz<br />
+                    María Mercedes Jiménez Narváez<br />
+                    Maribel Salazar Estrada<br />
+                    Marisol Lopera Pérez<br />
+                    Vanessa Arias Gil<br />
+                    Wilmer Alberto Gil Moreno</cite>
+                </div>
+                <div>
+                    <h3>Corrección de estilo</h3>
+                    <cite>Felipe Sosa Vargas</cite>
+                </div>
+                <div>
+                    <h3>Diseño gráfico</h3>
+                    <cite>Elizabeth Hernández González</cite>
+                </div>
+                <div>
+                    <h3>Implementación técnica</h3>
+                    <cite>Santiago Bernal García <br />
+                    David Herney Bernal García</cite>
+                </div>
+                <div>
+                    <h3>Gestión técnica y administrativa</h3>
+                    <cite>David Herney Bernal García <br />
+                    Maribel Salazar Estrada </cite>
+                </div>
+                <div>
+                    <h3>Producción</h3>
+                        <div class="logos">
+                            <a href="https://www.sgr.gov.co/" target="_blank"><img src="../../img/logosgr.png" alt="SGR" /></a>
+                            <a href="https://www.udea.edu.co/" target="_blank"><img src="../../img/logo-udea.png" alt="UdeA" /></a>
+                            <a href="https://antioquia.gov.co/" target="_blank"><img src="../../img/logoberna.png" alt="Gobernación de Antioquia" /></a>
+                            <p>Proyecto financiado por el Sistema General de Regalías de Colombia y ejecutado por la Universidad de Antioquia. BPIN-2021000100186.</p>
+                        </div>
+                </div>
+
+                 <div class="editions">
+                    1ª edición: mayo de 2024<br />
+                </div>
+                <div>
+                    <p>
+                        Contenido publicado bajo licencia:<br />
+                        <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Atribución 4.0 Internacional<br /><br />
+                        <img src="../../img/cc.png" alt="Creative Commons" /></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var slide_index = 1;
+    show_img(slide_index);
+
+    function current(n) {
+        show_img(slide_index += n);
+    }
+
+    function show_img(n) {
+        var i;
+        var x = document.getElementsByClassName("slide-img");
+        if (n > x.length) {slide_index = 1}
+        if (n < 1) {slide_index = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slide_index-1].style.display = "block";
+    }
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3PVJ3EYSXD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3PVJ3EYSXD');
+</script>
+
+</body>
+</html>
