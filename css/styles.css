@@ -573,6 +573,10 @@ header #navbar .redes-sociales a {
     margin: auto;
 }
 
+#que-es .que-es a {
+    color: #fff;
+}
+
 #que-es .que-es .imagen,
 #que-es .que-es .text {
     padding: 10px;
@@ -818,16 +822,8 @@ header #navbar .redes-sociales a {
     min-width: 47%;
 }
 
-.modal_container .row .foto0 {background: url(../content/investigadores/maribelsalazar.png) no-repeat top;}
-.modal_container .row .foto1 {background: url(../content/investigadores/davidherney.png) no-repeat top;}
-.modal_container .row .foto2 {background: url(../content/investigadores/maria_mercedes.png) no-repeat top;}
-.modal_container .row .foto3 {background: url(../content/investigadores/vanessa-arias.png) no-repeat top;}
-.modal_container .row .foto4 {background: url(../content/investigadores/angela-valderrama.png) no-repeat top;}
-.modal_container .row .foto5 {background: url(../content/investigadores/marcelapalacio.png) no-repeat top;}
-.modal_container .row .foto6 {background: url(../content/investigadores/herlaynne.png) no-repeat top;}
-.modal_container .row .foto7 {background: url(../content/investigadores/dianaospina.png) no-repeat top;}
-.modal_container .row .foto8 {background: url(../content/investigadores/wilmergil.png) no-repeat top;}
-.modal_container .row .foto9 {background: url(../content/investigadores/marisol.png) no-repeat top;}
+.modal_container .row .foto0 {background: url(../content/investigadores/luisfletscher.png) no-repeat top;}
+.modal_container .row .foto1 {background: url(../content/investigadores/angela-valderrama.png) no-repeat top;}
 
 .modal_container .row .foto {
     background-size: 100%;
