@@ -1821,6 +1821,7 @@ footer li.modal:hover {
 
 .slide-img {
     width: 100%;
+    box-shadow: 0 0 5px #888;
 }
 
 .slider button {
