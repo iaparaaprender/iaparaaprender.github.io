@@ -84,6 +84,7 @@ header.scroll_top .btn-close, header .btn-close {
     display: none;
 }
 
+.mas span,
 .mas a {
     display: flex;
     align-items: center;
@@ -999,6 +1000,7 @@ header #navbar .redes-sociales a {
     border-radius: 10px;
     color: #fff;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 #productos .producto p {

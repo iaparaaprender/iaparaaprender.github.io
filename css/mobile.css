@@ -39,7 +39,7 @@ header .btn-menu {
 	padding-right: 10px;
 	height: 50px;
 	cursor: pointer;
-	
+
 }
 
 header .btn-menu:after {
@@ -145,7 +145,7 @@ header .header-cont .nav-bar {
 }
 
 #que-es .que-es {
-	background: url(../img/que-es-rutatic.png) no-repeat top;
+	background: url(../img/que-es.png) no-repeat top;
 	background-size: 500% 100%;
     height: auto;
     padding-bottom: 0;
@@ -201,7 +201,7 @@ header .header-cont .nav-bar {
 }
 
 #conocimiento .col-2.video-cont {
-	padding: 10px 0;	
+	padding: 10px 0;
 }
 
 .modal_container .correo,
@@ -278,7 +278,7 @@ footer ul {
 	width: 100%;
 }
 
-#recursos .sonidos, #recursos .videos, 
+#recursos .sonidos, #recursos .videos,
 #recursos .ilustraciones, #recursos .fotografias {
 	padding: 0;
 }
@@ -322,7 +322,7 @@ footer ul {
 	border-left: none;
 }
 
-#scorm .contenidos .cont, 
+#scorm .contenidos .cont,
 #interactivos .contenidos .cont {
 	justify-content: center;
 }
@@ -351,7 +351,7 @@ footer ul {
 }
 
 .boxes .modal_container {
-	padding-top: 55px;	
+	padding-top: 55px;
 }
 
 #equipo .modal-content.colab {
