@@ -927,12 +927,13 @@ header #navbar .redes-sociales a {
 #eventos .mensaje-temp {
     position: absolute;
     width: 100%;
-    height: 75%;
-    font-size: 80px;
+    height: 70%;
+    font-size: 3vw;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     z-index: 1;
     background-color: #cececebd;
     color: #ff0000;
