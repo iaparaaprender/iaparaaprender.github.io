@@ -667,6 +667,7 @@ header #navbar .redes-sociales a {
     transform: scale(1.25);
     margin: 0 40px;
     transition: all 1s;
+    cursor: pointer;
 }
 
 #equipo .investigador img {
