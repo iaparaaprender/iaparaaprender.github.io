@@ -825,6 +825,7 @@ header #navbar .redes-sociales a {
 
 .modal_container .row .foto0 {background: url(../content/investigadores/luisfletscher.png) no-repeat top;}
 .modal_container .row .foto1 {background: url(../content/investigadores/angela-valderrama.png) no-repeat top;}
+.modal_container .row .foto2 {background: url(../content/investigadores/doris-ramirez.png) no-repeat top;}
 
 .modal_container .row .foto {
     background-size: 100%;
@@ -836,15 +837,20 @@ header #navbar .redes-sociales a {
     float: right;
 }
 
+.modal_container .curriculo {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    display: flex;
+}
+
 .modal_container .cvlac {
     background-color: #ffac31;
     padding: 10px 25px;
     color: #fff;
     text-decoration: none;
     font-size: 24px;
-    position: absolute;
-    bottom: 8%;
-    left: 10%;
+    margin-right: 10px;
 }
 
 .modal_container .correo {
@@ -916,6 +922,20 @@ header #navbar .redes-sociales a {
     margin-top: -150px;
     position: relative;
     min-height: 500px;
+}
+
+#eventos .mensaje-temp {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #cececebd;
+    color: #ff0000;
 }
 
 #eventos h1 {
