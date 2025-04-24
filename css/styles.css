@@ -944,7 +944,7 @@ img {
 #eventos {
     background: url(../img/04eventos.png) no-repeat 0 -6px;
     background-size: 100% 100%;
-    margin-top: -150px;
+    /*margin-top: -150px;*/
     position: relative;
     min-height: 500px;
 }
@@ -1035,7 +1035,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
 }
 
