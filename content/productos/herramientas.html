@@ -13,10 +13,15 @@
     <style>
         .row {
             padding: 0 100px;
+            flex-direction: column;
         }
         .col-2.img {
             text-align: center;
             background: url(img/fondo-formas1.png) no-repeat center;
+        }
+        .slider {
+            max-width: 800px;
+            margin: auto;
         }
     </style>
 
@@ -52,25 +57,15 @@
         </header>
 
         <div id="herramientas">
-            <div class="row">
-                <div class="col-2 text">
-                    <h2>Herramientas de software</h2>
-                    <p>La plataforma utilizada para la investigación fue el LMS Moodle. Una de las principales razones para seleccionar dicho LMS fue su licencia libre GNU/GPL que permite adaptar el software y tener acceso libre a su código fuente.</p>
-                    <p>Algunas de las funcionalidades necesarias para el proyecto no se encontraban disponibles o requerían modificaciones, por lo que se prentede entregar los desarrollos que fueron necesarios con el fin de que puedan ser aprovechados por otras personas. Todos los desarrollos se entregan también con licencia GNU/GPL.</p>
-                    <p>Las herramientas desarrolladas fueron probadas en la versión 4.2+ de Moodle que fue la elegida para el proyecto, cualquier versión diferente requiere que dichas funcionalidades sean probadas adecuadamente y pueden requerir adaptaciones. Las herramientas son:</p>
-                    <ul class="data_list">
-                        <li>
-                            <strong>Estilos de aprendizaje: </strong> este componente, de tipo "profilefield" (campo de perfil de usuario), se construyó como una herramienta para aplicar la encuesta de estilos de aprendizaje de Felder y Silverman. Además de la encuesta tradicional se cuenta con dos variaciones propuestas en el proyecto. El componente se encuentra disponible en <a href="https://github.com/iaparaaprender/moodle-profilefield_learningstyles" target="_blank">https://github.com/iaparaaprender/moodle-profilefield_learningstyles</a>.
-                        </li>
-                        <li>
-                            <strong>Plantilla de contenidos: </strong> para facilitar la implementación de contenidos en SCORM, se personalizó la herramienta <a href="https://github.com/davidherney/tepuy" target="_blank">"Tepuy"</a> adaptándola a las necesidades del proyecto, tanto gráficas como funcionales. Esta plantilla brinda la posibilidad de construir contenidos para ser empaquetados en SCORM o para ser usados como páginas HTML, permite contenidos interactivos y actividades como cuestionarios, arrastrar y soltar, crucigramas, ordenar, entre otras; todo esto sin necesidad de programación, simplemente mediante el uso de etiquetas HTML. La plantilla personalizada se encuentra disponible en <a href="https://github.com/iaparaaprender/tepuy/" target="_blank">https://github.com/iaparaaprender/tepuy/</a>.
-                        </li>
-                        <li>
-                            <strong>Recursos desde banco de objetos:</strong> este componente, de tipo Módulo o “Recurso de actividad”, es una herramienta creada para el LMS Moodle que permite hacer búsquedas de contenidos en múltiples bancos de objetos que implementan el API RESTFul tipo BoA. Su objetivo es que la persona que monta un curso pueda presentar contenidos directamente desde los bancos y con múltiples visualizaciones para que los estudiantes puedan elegir el tipo de contenido de su preferencia. El componente se encuentra disponible en <a href="https://github.com/iaparaaprender/moodle-mod_boa.git" target="_blank">https://github.com/iaparaaprender/moodle-mod_boa.git</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-2">
+            <div class="row text">
+                <h2>Herramientas de software</h2>
+                <p>La plataforma utilizada para la investigación fue el LMS Moodle. Una de las principales razones para seleccionar dicho LMS fue su licencia libre GNU/GPL que permite adaptar el software y tener acceso libre a su código fuente.</p>
+                <p>Algunas de las funcionalidades necesarias para el proyecto no se encontraban disponibles o requerían modificaciones, por lo que se prentede entregar los desarrollos que fueron necesarios con el fin de que puedan ser aprovechados por otras personas. Todos los desarrollos se entregan también con licencia GNU/GPL.</p>
+                <p>Las herramientas desarrolladas fueron probadas en la versión 4.2+ de Moodle que fue la elegida para el proyecto, cualquier versión diferente requiere que dichas funcionalidades sean probadas adecuadamente y pueden requerir adaptaciones. Las herramientas son:</p>
+                <ul class="data_list">
+                    <li>
+                        <strong>Estilos de aprendizaje: </strong> este componente, de tipo "profilefield" (campo de perfil de usuario), se construyó como una herramienta para aplicar la encuesta de estilos de aprendizaje de Felder y Silverman. Además de la encuesta tradicional se cuenta con dos variaciones propuestas en el proyecto. El componente se encuentra disponible en <a href="https://github.com/iaparaaprender/moodle-profilefield_learningstyles" target="_blank">https://github.com/iaparaaprender/moodle-profilefield_learningstyles</a>.
+                    </li>
                     <div class="slider">
                         <img class="slide-img" src="herramientas/plugin_estilos.png">
                         <img class="slide-img" src="herramientas/perfil_usuarios.png">
@@ -78,19 +73,25 @@
                         <button class="left" onclick="current(-1)"><div class="icono flecha-atras"></button>
                         <button class="right" onclick="current(1)"><div class="icono flecha-adelante"></div></button>
                     </div>
+                    <li>
+                        <strong>Plantilla de contenidos: </strong> para facilitar la implementación de contenidos en SCORM, se personalizó la herramienta <a href="https://github.com/davidherney/tepuy" target="_blank">"Tepuy"</a> adaptándola a las necesidades del proyecto, tanto gráficas como funcionales. Esta plantilla brinda la posibilidad de construir contenidos para ser empaquetados en SCORM o para ser usados como páginas HTML, permite contenidos interactivos y actividades como cuestionarios, arrastrar y soltar, crucigramas, ordenar, entre otras; todo esto sin necesidad de programación, simplemente mediante el uso de etiquetas HTML. La plantilla personalizada se encuentra disponible en <a href="https://github.com/iaparaaprender/tepuy/" target="_blank">https://github.com/iaparaaprender/tepuy/</a>.
+                    </li>
                     <div class="slider">
-                        <img class="slide-img" src="herramientas/tepuy.png">
+                        <img src="herramientas/tepuy.png">
                     </div>
+                    <li>
+                        <strong>Recursos desde banco de objetos:</strong> este componente, de tipo Módulo o “Recurso de actividad”, es una herramienta creada para el LMS Moodle que permite hacer búsquedas de contenidos en múltiples bancos de objetos que implementan el API RESTFul tipo BoA. Su objetivo es que la persona que monta un curso pueda presentar contenidos directamente desde los bancos y con múltiples visualizaciones para que los estudiantes puedan elegir el tipo de contenido de su preferencia. El componente se encuentra disponible en <a href="https://github.com/iaparaaprender/moodle-mod_boa.git" target="_blank">https://github.com/iaparaaprender/moodle-mod_boa.git</a>
+                    </li>
                     <div class="slider">
-                        <img class="slide-img" src="herramientas/mod_boa_editar.png">
-                        <img class="slide-img" src="herramientas/mod_boa_preview.png">
-                        <img class="slide-img" src="herramientas/mod_boa_visualizacion1.png">
-                        <img class="slide-img" src="herramientas/mod_boa_visualizacion2.png">
+                        <img class="slide-img2" src="herramientas/mod_boa_editar.png">
+                        <img class="slide-img2" src="herramientas/mod_boa_preview.png">
+                        <img class="slide-img2" src="herramientas/mod_boa_visualizacion1.png">
+                        <img class="slide-img2" src="herramientas/mod_boa_visualizacion2.png">
 
-                        <button class="left" onclick="current(-1)"><div class="icono flecha-atras"></button>
-                        <button class="right" onclick="current(1)"><div class="icono flecha-adelante"></div></button>
+                        <button class="left" onclick="current2(-1)"><div class="icono flecha-atras"></button>
+                        <button class="right" onclick="current2(1)"><div class="icono flecha-adelante"></div></button>
                     </div>
-                </div>
+                </ul>
             </div>
         </div>
     </div>
@@ -186,10 +187,16 @@
 
 <script>
     var slide_index = 1;
+    var slide2_index = 1;
     show_img(slide_index);
+    show_img2(slide2_index);
 
     function current(n) {
         show_img(slide_index += n);
+    }
+
+    function current2(n) {
+        show_img2(slide2_index += n);
     }
 
     function show_img(n) {
@@ -201,6 +208,16 @@
             x[i].style.display = "none";
         }
         x[slide_index-1].style.display = "block";
+    }
+    function show_img2(n) {
+        var i;
+        var x = document.getElementsByClassName("slide-img2");
+        if (n > x.length) {slide2_index = 1}
+        if (n < 1) {slide2_index = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slide2_index-1].style.display = "block";
     }
 </script>
 
