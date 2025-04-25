@@ -18,10 +18,9 @@
             text-align: center;
             background: url(img/fondo-formas1.png) no-repeat center;
         }
-        footer {
-            position: absolute;
-            width: calc(100% - 40px);
-            bottom: 0;
+        .slider {
+            max-width: 800px;
+            margin: auto;
         }
     </style>
 
@@ -64,6 +63,16 @@
                 <p>Para la implementación del caso de estudio se eligió el curso <strong>Razonamiento Lógico</strong> que hace parte de la oferta de formación que ofrece gratuitamente la Universidad de Antioquia para los aspirantes a ingresar en la institución.</p>
                 <p>La prueba se realizó durante cuatro versiones de dicho curso y, a medida que se avanzaba a la siguiente versión, se iban aplicando cambios en las herramientas, en las estrategias de definición de estilos de los estudiantes, en algunos contenidos, entre otras acciones que permitieron recopilar datos para el análisis en la investigación.</p>
                 <p>Dada la naturaleza de los cursos y puesto que tienen el banco de preguntas para los simulacros, los cursos completos no se pueden hacer públicos, por lo que en este sitio de divulgación se entregan principalmente los contenidos que fueron adaptados específicamente para la investigación (ver: Productos > Paquetes SCORM).</p>
+                <div class="slider">
+                    <img class="slide-img" src="casos/caso_curso_0.png">
+                    <img class="slide-img" src="casos/caso_curso_a.png">
+                    <img class="slide-img" src="casos/caso_curso_b.png">
+                    <img class="slide-img" src="casos/caso_curso_c.png">
+                    <img class="slide-img" src="casos/caso_curso_d.png">
+
+                    <button class="left" onclick="current(-1)"><div class="icono flecha-atras"></button>
+                    <button class="right" onclick="current(1)"><div class="icono flecha-adelante"></div></button>
+                </div>
             </div>
         </div>
     </div>
